@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pedromaia/Desktop/Projects/rinha-de-backend-2024-q1/application/rinha-de-backend-2024-q1.csproj": {}
+  },
+  "projects": {
+    "/Users/pedromaia/Desktop/Projects/rinha-de-backend-2024-q1/application/rinha-de-backend-2024-q1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pedromaia/Desktop/Projects/rinha-de-backend-2024-q1/application/rinha-de-backend-2024-q1.csproj",
+        "projectName": "rinha-de-backend-2024-q1",
+        "projectPath": "/Users/pedromaia/Desktop/Projects/rinha-de-backend-2024-q1/application/rinha-de-backend-2024-q1.csproj",
+        "packagesPath": "/Users/pedromaia/.nuget/packages/",
+        "outputPath": "/Users/pedromaia/Desktop/Projects/rinha-de-backend-2024-q1/application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pedromaia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
